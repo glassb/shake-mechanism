@@ -7,3 +7,5 @@ I developed a mechanism that adds artificial shake to a camera frame. I programe
 
 The Arduino code is available here.
 
+The Freefly API is also included.
+

@@ -7,5 +7,6 @@ I developed a mechanism that adds artificial shake to a camera frame. I programe
 
 The Arduino code is available here.
 
-The Freefly API is also included.
+Download the Freefly API here: http://freeflysystems.com/support/movi-pro-support and install the API files a library in the Arduino Web Editor. Include in the Arduino code file. 
+
 

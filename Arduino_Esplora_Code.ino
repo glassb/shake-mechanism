@@ -1,7 +1,7 @@
 //  Gimbal Shake Mechanism using Arduino Esplora Board
 //  Benjamin Glass
 //  WINDY FILMS
-//  June 5 - July 28,2017
+//  June 5 - July 27,2017
 
 
 // Include Freefly API
@@ -49,8 +49,6 @@ void setup() {
 
 //Loop code
 void loop() {
-    //Delay so that we only send about 50 updates per second.
-    delay(20);
 
 
     // Read Joystick's X and Y axis
@@ -62,33 +60,24 @@ void loop() {
 
     float pi = 3.14;
 
-    Serial.print("Incr: ");
-    Serial.print(incr1);
-    Serial.print("\n");
+    float rp_amp = random(1,3);     //random pan amplitude
+    float rt_amp = random(1,3);     //random tilt amplitude
 
-    float rp_amp = random(1,7);     //random pan amplitude
-    float rt_amp = random(1,7);     //random tilt amplitude
-
-    float shake_num_pan = rp_amp*(sin((incr1/60)*2*pi)/8);     //const. changing increment value added to create shake
-    float shake_num_tilt = rt_amp*(sin(((incr2/60)*2*pi))/8);  // divide by 10 can be changed to control shake amplitude
-
-    Serial.print("SN: ");
-    Serial.print(shake_num_pan);
-    Serial.print(shake_num_tilt);
-    Serial.print("\n");
+    float shake_num_pan = (sin((incr1/60)*2*pi)/2);     //const. changing increment value added to create shake
+    float shake_num_tilt = (sin(((incr2/60)*2*pi))/2);  // divide by 10 can be changed to control shake amplitude
 
     //Joystick centering
-    if (-joystickX <= .04 && -joystickX >= 0) {
+    if (-joystickX <= .4 && -joystickX >= 0) {
       joystickX = 0;
-    } else if (-joystickX > .04) {
+    } else if (-joystickX > .4) {
       joystickX = -.5;
     } else {
       joystickX = .5;
     }
 
-    if (joystickY <= .02 && joystickY >= 0) {
+    if (joystickY <= .4 && joystickY >= 0) {
       joystickY = 0;
-    } else if (joystickY > .04) {
+    } else if (joystickY > .4) {
       joystickY = .5;
     } else {
       joystickY = -.5;
@@ -101,29 +90,19 @@ void loop() {
     FreeflyAPI.control.tilt.value = (joystickY) + shake_num_tilt;
 
 
-    Serial.print("Pan: ");
-    Serial.print(FreeflyAPI.control.pan.value);
-
-    Serial.print(" ");
-
-    Serial.print("Tilt: ");
-    Serial.print(FreeflyAPI.control.tilt.value);
-    Serial.print("\n\n");
-
-    //reset and increment incr1 and incr2
-    if (incr1 == 60) {
-        incr1 = 1;
-        incr2 += 14.75;
-    } else if (incr2 == 60) {
-      incr2 = 1;
-      incr1 +=14.75;
+    //reset and increment incr1 and incr2 after the increments get too high
+    if (incr1 == 100000) {
+      incr1 = 1;
+      incr2 = 30.5;
     } else {
-        incr1 += 14.75;
-        incr2 += 14.75;
+      incr1 += 14.75;
+      incr2 += 14.75;
     }
 
 
-    delay(200*sliderValue); //affects how fast the shake is
+
+
+    delay(100*sliderValue); //affects how fast the shake is
 
 
 

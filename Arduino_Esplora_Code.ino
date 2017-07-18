@@ -60,9 +60,6 @@ void loop() {
 
     float pi = 3.14;
 
-    float rp_amp = random(1,3);     //random pan amplitude
-    float rt_amp = random(1,3);     //random tilt amplitude
-
     float shake_num_pan = (sin((incr1/60)*2*pi)/2);     //const. changing increment value added to create shake
     float shake_num_tilt = (sin(((incr2/60)*2*pi))/2);  // divide by 10 can be changed to control shake amplitude
 

@@ -1,6 +1,5 @@
 # Artificial Shake Mechanism - For Freefly MōVI Pro by Arduino Microcontroller
 
-# Report Abstract
 With camera movement, cinematographers seek complete control. Even in the case of camera shake, this is true. Whether a filmmaker attempts to capture the small jitters from an earthquake rumbling a building, the jostling of a car moving fast over bumpy terrain, or the slow weaves that are characteristic of a camera handheld, these frame motions need to be deliberate. With machinery, we have the ability to pinpoint the frame motion we desire, eliminating the human element – and the likely associated error.
 
 I programmed an Arduino Esplora microcontroller to control a MōVI Pro’s gimbal motors through the Gimbal Control Unit. The Arduino sends commands that change the motors rotational velocity, that result in jerky camera motion.

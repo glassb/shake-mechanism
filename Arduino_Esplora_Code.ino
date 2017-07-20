@@ -137,31 +137,6 @@ void loop() {
         FreeflyAPI.control.fiz_record_button_flag = false; //Set FIZ record button off
     }
 
-
-
-
-    // Create the message to be sent to MōVI Pro
-    FreeflyAPI.send();
-
-    /* In a loop send each byte of the message
-     that the Freefly API created through
-     the Serial port
-     */
-    while (true) {
-
-        //Create temporary value to hold the message
-        uint8_t message;
-
-        /* Remove single byte from the message API created
-         and exit this loop if there is no more messages
-         left to be sent this round.
-         */
-        if (BufRemove(1, &message) == 0) break;
-
-        //Now physically send one byte of message on Serial port
-        ArduinoToMoviCommunication.write(message);
-    }
-
 }
 
 //Re-maps a number from one range to another to make calculations easier.

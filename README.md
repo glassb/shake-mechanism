@@ -5,6 +5,7 @@ An Arduino Esplora microcontroller sends commands to a MōVI Pro that change the
 ***Notice*: Windy Films treats this project as a proof of concept.** Although the mechanism is functional and expandable, the hardware limitations and lack of time for production lead us to look to others for further development. By making the software available and presenting the hardware configuration, our hope is that this mechanism appears as a widely useful feature that can be integrated easily into an existing environment, including the Freefly MōVI Pro. As a motion feature incorporated into the MōVI environment, the shake mechanism would be (a) developed more extensively, and (b) the mechanism would be more easily operated.
 
 The Arduino code and full documentation are available here.
+<br/>
 
 **Links**
 --

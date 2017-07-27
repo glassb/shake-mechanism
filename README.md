@@ -7,11 +7,10 @@ An Arduino Esplora microcontroller sends commands to a MōVI Pro that change the
 The Arduino code and full documentation are available here.
 
 # Links
------
 - **Highlight Video:** https://www.youtube.com/watch?v=TiPTbAjHiWw
 - **Windy Films Blogpost:** https://windyfilms.com/blog/2017/7/25/movi
 - **Download the Freefly API here:** http://freeflysystems.com/support/movi-pro-support and install the API files as a library in the Arduino Web Editor. Include the API library in the Arduino code file. 
------
+
 <br/>
 <br/>
 

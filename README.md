@@ -1,7 +1,5 @@
 # Artificial Shake Mechanism - For Freefly MōVI Pro by Arduino Microcontroller
 
-Video: https://www.youtube.com/watch?v=NPXPOfH3l30
-
 With camera movement, cinematographers seek complete control. Even in the case of camera shake, this is true. Whether a filmmaker attempts to capture the small jitters from an earthquake rumbling a building, the jostling of a car moving fast over bumpy terrain, or the slow weaves that are characteristic of a camera handheld, these frame motions need to be deliberate. With machinery, we have the ability to pinpoint the frame motion we desire, eliminating the human element – and the likely associated error.
 
 An Arduino Esplora microcontroller controls a MōVI Pro’s gimbal motors through the Gimbal Control Unit. The Arduino sends commands that change the motors rotational velocity, that result in jerky camera motion.
@@ -17,4 +15,9 @@ Download the Freefly API here: http://freeflysystems.com/support/movi-pro-suppor
 Note on rotationrates_data.csv: This file contains motion data collected from three different types of movement: static (standing upright), walking (about 2.5 meters/second), and running (about 7 meters/second). In all three movements, data was recorded using SensorLog mobile application for 10 seconds at 100Hz. The phone was attached directly to a Canon 1D DSLR for realistic camera movement. The data recorded the rotation speed of the phone in the X, Y, and Z directions. The units of measurement are radians/second.
 
 rotationrates_exceldata.xslx houses all three different movement's data, as well as a hybrid data, that averages all three movements together to create and somewhat intermediate "shake". Spreadsheets include graphs.
+
+Highlight Video: https://www.youtube.com/watch?v=TiPTbAjHiWw
+
+Windy Films Blogpost: https://windyfilms.com/blog/2017/7/25/movi
+
 

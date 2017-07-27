@@ -6,7 +6,14 @@ An Arduino Esplora microcontroller controls a MōVI Pro’s gimbal motors throug
 
 The Arduino code and full documentation are available here.
 
+**Highlight Video:** https://www.youtube.com/watch?v=TiPTbAjHiWw
+
+**Windy Films Blogpost:** https://windyfilms.com/blog/2017/7/25/movi
+
 **Download the Freefly API here:** http://freeflysystems.com/support/movi-pro-support and install the API files as a library in the Arduino Web Editor. Include the API library in the Arduino code file. 
+
+<br/>
+<br/>
 
 **July 27, 2017 Update:** We have begun to process a second version of the shake mechanism, that relies on real motion data rather than arithmetic functions. Our hope is that data collectection will make the shake mechanism more realistic.
 
@@ -15,8 +22,6 @@ The Arduino code and full documentation are available here.
 The file ***rotationrates_exceldata.xslx*** houses all three different movement's data, as well as a hybrid data, that averages all three movements together to create and somewhat intermediate "shake". Spreadsheets include graphs.
 
 
-**Highlight Video:** https://www.youtube.com/watch?v=TiPTbAjHiWw
 
-**Windy Films Blogpost:** https://windyfilms.com/blog/2017/7/25/movi
 
 

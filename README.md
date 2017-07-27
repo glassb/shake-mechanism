@@ -12,9 +12,9 @@ The Arduino code is available here.
 Download the Freefly API here: http://freeflysystems.com/support/movi-pro-support and install the API files as a library in the Arduino Web Editor. Include the API library in the Arduino code file. 
 
 
-Note on rotationrates_data.csv: This file contains motion data collected from three different types of movement: static (standing upright), walking (about 2.5 meters/second), and running (about 7 meters/second). In all three movements, data was recorded using SensorLog mobile application for 10 seconds at 100Hz. The phone was attached directly to a Canon 1D DSLR for realistic camera movement. The data recorded the rotation speed of the phone in the X, Y, and Z directions. The units of measurement are radians/second.
+Note on the file rotationrates_data.csv: This file contains motion data collected from three different types of movement: static (standing upright), walking (about 2.5 meters/second), and running (about 7 meters/second). In all three movements, data was recorded using SensorLog mobile application for 10 seconds at 100Hz. The phone was attached directly to a Canon 1D DSLR for realistic camera movement. The data recorded the rotation speed of the phone in the X, Y, and Z directions. The units of measurement are radians/second.
 
-rotationrates_exceldata.xslx houses all three different movement's data, as well as a hybrid data, that averages all three movements together to create and somewhat intermediate "shake". Spreadsheets include graphs.
+The file rotationrates_exceldata.xslx houses all three different movement's data, as well as a hybrid data, that averages all three movements together to create and somewhat intermediate "shake". Spreadsheets include graphs.
 
 Highlight Video: https://www.youtube.com/watch?v=TiPTbAjHiWw
 

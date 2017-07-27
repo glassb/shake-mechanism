@@ -14,7 +14,9 @@ The Arduino code and full documentation are available here.
 <br/>
 <br/>
 
-**July 27, 2017 Update:** We have begun to process a second version of the shake mechanism, that relies on real motion data rather than arithmetic functions. Our hope is that data collectection will make the shake mechanism more realistic.
+
+# July 27, 2017 Update
+We have begun to process a second version of the shake mechanism, that relies on real motion data rather than arithmetic functions. Our hope is that data collectection will make the shake mechanism more realistic.
 
 **Note on the file *rotationrates_data.csv*:** This file contains motion data collected from three different types of movement: static (standing upright), walking (about 2.5 meters/second), and running (about 7 meters/second). In all three movements, data was recorded using SensorLog mobile application for 10 seconds at 100Hz. The phone was attached directly to a Canon 1D DSLR for realistic camera movement. The data recorded the rotation speed of the phone in the X, Y, and Z directions. The units of measurement are radians/second.
 

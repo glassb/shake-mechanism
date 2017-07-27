@@ -15,6 +15,7 @@ The Arduino code and full documentation are available here.
 
 <br/>
 <br/>
+
 **July 27, 2017 Update**
 --
 We have begun to process a second version of the shake mechanism, that relies on real motion data rather than arithmetic functions. Our hope is that data collectection will make the shake mechanism more realistic.

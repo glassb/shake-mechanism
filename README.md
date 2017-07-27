@@ -1,8 +1,8 @@
 # Shake Mechanism - For Freefly MōVI Pro by Arduino Microcontroller
 
-An Arduino Esplora microcontroller controls a MōVI Pro’s gimbal motors through the Gimbal Control Unit. The Arduino sends commands that change the motors rotational velocity, that result in jerky camera motion.
+An Arduino Esplora microcontroller controls a MōVI Pro’s gimbal motors through the Gimbal Control Unit. The Arduino sends commands that change the motors' rotational velocity, that result in jerky camera motion.
 
-Windy Films treats this project as a proof of concept. Although the mechanism is functional and expandable, the hardware limitations and lack of time for production lead us to look to others for further development. By making the software available and presenting the hardware configuration, our hope is that this mechanism appears as a widely useful feature that can be integrated easily into an existing environment, including the Freefly MōVI Pro. As a motion feature incorporated into the MōVI environment, the shake mechanism would be (a) developed more extensively, and (b) the mechanism would be more easily operated.
+**Windy Films treats this project as a proof of concept.** Although the mechanism is functional and expandable, the hardware limitations and lack of time for production lead us to look to others for further development. By making the software available and presenting the hardware configuration, our hope is that this mechanism appears as a widely useful feature that can be integrated easily into an existing environment, including the Freefly MōVI Pro. As a motion feature incorporated into the MōVI environment, the shake mechanism would be (a) developed more extensively, and (b) the mechanism would be more easily operated.
 
 The Arduino code and full documentation are available here.
 

@@ -1,4 +1,4 @@
-//  Gimbal Shake Mechanism using Arduino Esplora Board
+//  Gimbal Shake Mechanism using Arduino Esplora Board : Original Version
 //  Benjamin Glass
 //  WINDY FILMS
 //  June 5 - July 27,2017
